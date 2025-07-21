@@ -1,6 +1,6 @@
 if (obj_battle_manager.enemy_turn)
 {
-    image_alpha = 0.4;
+    image_alpha = 0.3;
 }
 else 
 {
