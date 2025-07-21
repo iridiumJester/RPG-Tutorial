@@ -17,3 +17,8 @@ else
     else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
     else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
 }
+
+if (hp <= 0) 
+{
+    game_restart();
+}
