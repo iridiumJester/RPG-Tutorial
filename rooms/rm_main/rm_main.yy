@@ -1,17 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"rm_main",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2662CEA5","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_377DBD2A","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_114B78D0","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_48BA24A9","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_28710B4E","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2B90D20C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2662CEA5","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_377DBD2A","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_114B78D0","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_48BA24A9","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_28710B4E","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_2B90D20C","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -108,7 +108,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_background","path":"tilesets/tl_background/tl_background.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.1,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.1,"vtiled":true,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"rm_main",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
@@ -126,7 +126,7 @@
   "roomSettings":{
     "Height":768,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":1366,
   },
   "sequenceId":null,
